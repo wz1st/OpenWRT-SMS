@@ -90,7 +90,7 @@ def main():
     global conn
     global apikey
 
-    apikey = "sctp1847tsppcpbegpbenuxft3qomyz"
+    apikey = "serverchan_key" # serverchan的API
     conn = init_sqlite(db_file)
 
     while True:
